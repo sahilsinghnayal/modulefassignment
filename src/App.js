@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import LeftCmp from './Component/LeftCmp';
+import RightCmp from './Component/RightCmp';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="container">
+     <LeftCmp/>
+     <RightCmp/>
     </div>
   );
 }
